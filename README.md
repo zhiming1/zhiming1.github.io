@@ -1,25 +1,13 @@
-# 码志
-
-我的个人博客：<https://mazhuang.org>，欢迎 Star 和 Fork。
 
 ## 概览
 
 <!-- vim-markdown-toc GFM -->
 
-* [效果预览](#效果预览)
 * [Fork 指南](#fork-指南)
 * [使用文档](#使用文档)
 * [经验与思考](#经验与思考)
-* [联系我](#联系我)
-* [致谢](#致谢)
 
 <!-- vim-markdown-toc -->
-
-## 效果预览
-
-**[在线预览 &rarr;](https://mazhuang.org)**
-
-![screenshot home](https://mazhuang.org/assets/images/screenshots/home.png)
 
 ## Fork 指南
 
@@ -39,7 +27,7 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
    **评论模块：** 目前支持 disqus、gitment 和 gitalk，选用其中一种就可以了，推荐使用 gitalk。它们各自的配置指南链接在 \_config.yml 文件的 Comments 一节里都贴出来了。
 
-   **注意：** 如果使用 disqus，因为 disqus 处理用户名与域名白名单的策略存在缺陷，请一定将 disqus.username 修改成你自己的，否则请将该字段留空。我对该缺陷的记录见 [Issues#2][3]。
+   **注意：** 如果使用 disqus，因为 disqus 处理用户名与域名白名单的策略存在缺陷，请一定将 disqus.username 修改成你自己的，否则请将该字段留空。我对该缺陷的记录见 
 
 4. 删除我的文章与图片。
 
@@ -56,13 +44,11 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
 ## 使用文档
 
-- [本博客模板常见问题 Q & A](https://mazhuang.org/2020/05/03/blog-template-qna/)。
-
-- 在本地预览博客效果可以参考 [Setting up your Pages site locally with Jekyll][2]。
+- 在本地预览博客效果可以参考 
 
 ## 经验与思考
 
-* 排版建议遵照一定的规范，推荐 [中文文案排版指北（简体中文版）][1]。
+* 排版建议遵照一定的规范，推荐 
 
 * 简约，尽量每个页面都不展示多余的内容。
 
@@ -75,21 +61,3 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 * 杜绝难断句、难理解的长句子，如果不能将其拆分成几个简洁的短句，说明脑中的理解并不清晰。
 
 * 可以学习一下那些高质量的博主，他们的行文，内容组织方式，有什么值得借鉴的地方。
-
-## 联系我
-
-如果对本博客模板或者内容有任何建议，可以通过 [Issues](https://github.com/mzlogin/mzlogin.github.io/issues) 或者微信公众号「闷骚的程序员」与我取得联系。
-
-<img width="192px" height="192px" src="https://mazhuang.org/assets/images/qrcode.jpg"/>
-
-## 致谢
-
-本博客外观基于 [DONGChuan](https://dongchuan.github.io) 修改，感谢！
-
-Thanks for JetBrains' support.
-
-<a href="https://www.jetbrains.com/?from=mzlogin.github.io"><img src="./assets/images/jetbrains.svg"/></a>
-
-[1]: https://github.com/mzlogin/chinese-copywriting-guidelines
-[2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
-[3]: https://github.com/mzlogin/mzlogin.github.io/issues/2
