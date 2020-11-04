@@ -153,5 +153,3 @@ google:
         sidebar: true 
         content_header: true
         content_footer: false
-
-theme: jekyll-theme-cayman
